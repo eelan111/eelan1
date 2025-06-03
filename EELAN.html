@@ -1,0 +1,176 @@
+<!DOCTYPE html> <!-- تعريف أن هذا الملف من نوع HTML5 -->
+<html lang="de"> <!-- لغة الصفحة ألمانية -->
+<head>
+  <meta charset="UTF-8" /> <!-- دعم الأحرف الخاصة مثل العربية -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- لجعل الموقع متجاوب مع الشاشات -->
+  <title>eelan</title> <!-- عنوان الصفحة الذي يظهر في المتصفح -->
+  <style>
+    /* تنسيق شكل الصفحة العامة */
+    body {
+      background-color: #2c2c2c; /* لون خلفية غامق */
+      color: #f0f0f0; /* لون النص فاتح */
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1, h2 {
+      color: #21519e; /* لون العناوين */
+    }
+
+    /* تنسيق قائمة الأيقونات */
+    .icon-list {
+      display: flex;
+      flex-direction: column; /* ترتيب عمودي */
+      align-items: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .icon-list a {
+      text-decoration: none; /* بدون خط تحت الرابط */
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 12px 20px;
+      border-radius: 10px;
+      background-color: #1e1e1e;
+      width: 300px;
+      transition: all 0.3s ease;
+    }
+
+    .icon-list a:hover {
+      background-color: #292929;
+      transform: scale(1.09); /* تكبير بسيط عند المرور */
+    }
+
+    .icon-list img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .icon-list span {
+      font-size: 1.2em;
+    }
+
+    /* تنسيق الأقسام الإضافية مثل "Über mich" */
+    section {
+      margin-top: 60px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+
+    section h2 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    section p, section ul {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 60px;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- عنوان الموقع -->
+  <h1>Meine sozialen Netzwerke Eelan</h1>
+
+  <!-- روابط شبكات التواصل -->
+  <div class="icon-list">
+    <!-- رابط انستغرام -->
+    <a href="https://www.instagram.com/eyaln_1" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+      <span>Instagram</span>
+    </a>
+
+    <!-- رابط تيك توك -->
+    <a href="https://www.tiktok.com/@scv.g?_t=ZS-8vhoYZzRGFD&_r=1" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046122.png" alt="TikTok">
+      <span>TikTok</span>
+    </a>
+
+    <!-- رابط فيسبوك -->
+    <a href="https://www.facebook.com/share/1CLWzZ95mx/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      <span>Facebook</span>
+    </a>
+
+    <!-- رابط واتساب -->
+    <a href="https://wa.me/4915734327167" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp">
+      <span>WhatsApp</span>
+    </a>
+
+    <!-- رابط تيليجرام -->
+    <a href="https://t.me/4915734327167" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+      <span>Telegram</span>
+    </a>
+
+    <!-- رابط البريد الإلكتروني -->
+    <a href="mailto:mlk003330@gmail.com" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+      <span>Email</span>
+    </a>
+
+    <!-- رابط الاتصال الهاتفي -->
+    <a href="tel:+4915734327167">
+      <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone">
+      <span>Telefon</span>
+    </a>
+  </div>
+
+  <!-- قسم نبذة عني -->
+  <section>
+    <h2>Über mich</h2>
+    <p>Ich bin eelan, ein leidenschaftlicher Webentwickler mit Fokus auf moderne und responsive Websites. Ich liebe es, kreative digitale Lösungen zu bauen und mich stetig weiterzuentwickeln.</p>
+  </section>
+
+  <!-- قسم المشاريع -->
+  <section>
+    <h2>Projekte</h2>
+    <ul>
+      <li><a href="#" target="_blank">📁 Projekt 1 – Portfolio Website</a></li>
+
+
+    </ul>
+  </section>
+
+  <!-- قسم المهارات -->
+  <section>
+    <h2>Fähigkeiten</h2>
+    <ul>
+      <li>🔄 HTML</li>
+      <li>🔄 python</li>
+      <li>🔄 system Kali Linux </li>
+
+      <a href="cv.pdf" download style="display:inline-block; margin-top:30px; padding:12px 25px; background:#00ffd5; color:#000; font-weight:bold; border-radius:8px; text-decoration:none; transition:0.3s;">
+        📄 meine lebenslauf
+      </a>
+  
+
+    </ul>
+  </section>
+
+  <!-- تذييل الصفحة -->
+  <footer>
+   
+
+
+    &copy; 2025 eelan Alshankal. Alle Rechte vorbehalten.
+
+
+
+  </footer>
+</body>
+</html>
